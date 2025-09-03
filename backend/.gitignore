@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Env/config
+.env
+.env.*
+!.env.example
+
+# Tooling
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+
+
