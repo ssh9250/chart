@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     # Third-party
     "rest_framework",
     # Local apps
+    "users",
     "community",
     "stocks",
 ]
@@ -101,5 +102,9 @@ REST_FRAMEWORK = {
         "rest_framework.parsers.JSONParser",
     ],
 }
+
+
+# Custom user model
+AUTH_USER_MODEL = "users.User"
 
 
