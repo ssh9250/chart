@@ -7,6 +7,7 @@ urlpatterns = [
     path("api/community/", include("community.urls")),
     path("api/stocks/", include("stocks.urls")),
     path("api/analysis/", include("analysis.urls")),
+    path("api/auth/", include("rest_framework.urls")),
 ]
 
 
